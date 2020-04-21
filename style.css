@@ -1,0 +1,573 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#umumi {
+  width: 100%;
+  height: 650px;
+  position: relative;
+  overflow: hidden;
+  animation-name: umumi;
+  animation-duration: 5s;
+  animation-delay: 30s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes umumi {
+  from {
+    background-color: #183942;
+  }
+  to {
+    background-color: springgreen;
+  }
+}
+
+#umumi div {
+  position: absolute;
+}
+
+#gif1 {
+  width: 80px;
+  height: 80px;
+  background-image: url("img/virus1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  z-index: 2;
+  top: 0;
+  left: -80px;
+  animation-name: gif1;
+  animation-duration: 8s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes gif1 {
+  from {
+    transform: rotate(0deg);
+    top: 0;
+    left: -260px;
+  }
+  to {
+    transform: rotate(180deg);
+    left: 100%;
+    top: 400px;
+  }
+}
+
+#gif2 {
+  width: 80px;
+  height: 80px;
+  background-image: url("img/virus1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  z-index: 2;
+  top: 0;
+  left: -340px;
+  animation-name: gif2;
+  animation-duration: 8.4s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes gif2 {
+  from {
+    top: -10px;
+    left: -340px;
+  }
+  to {
+    left: 100%;
+    top: 390px;
+    transform: rotate(-360deg);
+  }
+}
+
+#gif3 {
+  width: 80px;
+  height: 80px;
+  background-image: url("img/virus1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  z-index: 2;
+  top: 0;
+  left: -420px;
+  animation-name: gif3;
+  animation-duration: 8.8s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes gif3 {
+  from {
+    top: -20px;
+    left: -420px;
+  }
+  to {
+    left: 100%;
+    top: 380px;
+    transform: rotate(270deg);
+  }
+}
+
+#gif4 {
+  width: 80px;
+  height: 80px;
+  background-image: url("img/virus1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  z-index: 2;
+  top: 0;
+  left: -420px;
+  animation-name: gif4;
+  animation-duration: 9.2s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes gif4 {
+  from {
+    top: -30px;
+    left: -500px;
+  }
+  to {
+    left: 100%;
+    top: 360px;
+    transform: rotate(-230deg);
+  }
+}
+
+#gif5 {
+  width: 80px;
+  height: 80px;
+  background-image: url("img/virus1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  z-index: 2;
+  top: 0;
+  left: -420px;
+  animation-name: gif5;
+  animation-duration: 9.6s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes gif5 {
+  from {
+    top: -40px;
+    left: -580px;
+  }
+  to {
+    left: 100%;
+    top: 350px;
+    transform: rotate(430deg);
+  }
+}
+
+#gif11 {
+  background-image: url("img/earth.gif");
+  width: 180px;
+  height: 180px;
+  z-index: 2;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  top: 0;
+  left: -180px;
+  animation-name: earth1;
+  animation-duration: 7s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes earth1 {
+  from {
+    top: 0;
+    left: -180px;
+  }
+  to {
+    left: 100%;
+    top: 400px;
+  }
+}
+
+#gif12 {
+  background-image: url("img/earth.gif");
+  width: 180px;
+  height: 180px;
+  z-index: 2;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  top: 400px;
+  left: -180px;
+  animation-name: earth2;
+  animation-duration: 8s;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes earth2 {
+  from {
+    top: 600px;
+    left: -180px;
+  }
+  to {
+    left: 100%;
+    top: 0;
+  }
+}
+
+#gif6 {
+  width: 80px;
+  height: 80px;
+  background-image: url("img/virus1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  z-index: 2;
+  top: 490px;
+  left: -180px;
+  animation-name: gif6;
+  animation-duration: 9.6s;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes gif6 {
+  from {
+    top: 700px;
+    left: -260px;
+  }
+  to {
+    left: 100%;
+    top: 0;
+    transform: rotate(270deg);
+  }
+}
+
+#gif7 {
+  width: 80px;
+  height: 80px;
+  background-image: url("img/virus1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  z-index: 2;
+  top: 490px;
+  left: -180px;
+  animation-name: gif7;
+  animation-duration: 10s;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes gif7 {
+  from {
+    top: 700px;
+    left: -340px;
+  }
+  to {
+    left: 100%;
+    top: 0;
+    transform: rotate(-270deg);
+  }
+}
+
+#gif8 {
+  width: 80px;
+  height: 80px;
+  background-image: url("img/virus1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  z-index: 2;
+  top: 490px;
+  left: -180px;
+  animation-name: gif8;
+  animation-duration: 10.4s;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes gif8 {
+  from {
+    top: 700px;
+    left: -420px;
+  }
+  to {
+    left: 100%;
+    top: 0;
+    transform: rotate(270deg);
+  }
+}
+
+#gif9 {
+  width: 80px;
+  height: 80px;
+  background-image: url("img/virus1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  z-index: 2;
+  top: 490px;
+  left: -180px;
+  animation-name: gif9;
+  animation-duration: 10.8s;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes gif9 {
+  from {
+    top: 700px;
+    left: -500px;
+  }
+  to {
+    left: 100%;
+    top: 0;
+    transform: rotate(-270deg);
+  }
+}
+
+#gif10 {
+  width: 80px;
+  height: 80px;
+  background-image: url("img/virus1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  z-index: 2;
+  top: 490px;
+  left: -180px;
+  animation-name: gif10;
+  animation-duration: 11.2s;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes gif10 {
+  from {
+    top: 700px;
+    left: -580px;
+  }
+  to {
+    left: 100%;
+    top: 0;
+    transform: rotate(270deg);
+  }
+}
+
+#gif13 {
+  background-image: url("img/earth.gif");
+  width: 180px;
+  height: 180px;
+  z-index: 2;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  top: 150px;
+  left: -180px;
+  animation-name: earth3;
+  animation-duration: 8s;
+  animation-delay: 21s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes earth3 {
+  from {
+    top: 150px;
+    left: -180px;
+  }
+  to {
+    left: 100%;
+    top: 150px;
+  }
+}
+
+#gif14 {
+  width: 80px;
+  height: 80px;
+  background-image: url("img/virus1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  z-index: 2;
+  top: 490px;
+  left: -180px;
+  animation-name: gif14;
+  animation-duration: 5s;
+  animation-delay: 21s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+}
+
+@keyframes gif14 {
+  from {
+    top: 200px;
+    left: -280px;
+  }
+  to {
+    left: 350px;
+    top: 200px;
+  }
+}
+
+#gif15 {
+  width: 80px;
+  height: 80px;
+  background-image: url("img/virus1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  z-index: 2;
+  top: 490px;
+  left: -180px;
+  animation-name: gif15;
+  animation-duration: 6s;
+  animation-delay: 21s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+}
+
+@keyframes gif15 {
+  from {
+    top: 200px;
+    left: -360px;
+  }
+  to {
+    left: 350px;
+    top: 200px;
+  }
+}
+
+#gif16 {
+  width: 80px;
+  height: 80px;
+  background-image: url("img/virus1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  z-index: 2;
+  top: 490px;
+  left: -180px;
+  animation-name: gif16;
+  animation-duration: 7.5s;
+  animation-delay: 21s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+}
+
+@keyframes gif16 {
+  from {
+    top: 200px;
+    left: -280px;
+  }
+  to {
+    left: 350px;
+    top: 200px;
+  }
+}
+
+#gif17 {
+  width: 80px;
+  height: 80px;
+  background-image: url("img/virus1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  z-index: 2;
+  top: 490px;
+  left: -180px;
+  animation-name: gif17;
+  animation-duration: 8.5s;
+  animation-delay: 21s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+}
+
+@keyframes gif17 {
+  from {
+    top: 200px;
+    left: -280px;
+  }
+  to {
+    left: 350px;
+    top: 200px;
+  }
+}
+
+#gif18 {
+  width: 80px;
+  height: 80px;
+  background-image: url("img/virus1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  z-index: 2;
+  top: 490px;
+  left: -180px;
+  animation-name: gif18;
+  animation-duration: 10s;
+  animation-delay: 21s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+}
+
+@keyframes gif18 {
+  from {
+    top: 200px;
+    left: -280px;
+  }
+  to {
+    left: 350px;
+    top: 200px;
+  }
+}
+
+#yazi {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  color: red;
+  animation-name: yazi;
+  animation-duration: 8s;
+  animation-delay: 21s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  top: -150px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: font-size 24s, color 24s;
+}
+
+@keyframes yazi {
+  from {
+    font-size: 32px;
+    color: red;
+    top: -150px;
+  }
+  to {
+    font-size: 48px;
+    color: #fff;
+    top: 200px;
+  }
+}
